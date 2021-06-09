@@ -13,7 +13,7 @@ services:
       - ./init.sql:/docker-entrypoint-initdb.d/init.sql
 
   superset:
-    image: tylerfowler/superset
+    image: abhishekjog/superset
     container_name: superset
     restart: always
     environment:
